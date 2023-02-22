@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(to left,red,orange);
+    color:black;
+}
+
+
+/*estilo de una barra horizontal*/
+.navbar{
+    display: flex;
+    background-color: #333;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a:hover{                /*cambia de color al pasar el cursor*/
+    background-color: #ddd;
+    color: black;
+}
+
+.row{                 /*uno de los estilos flexibles*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row h2{
+    font-size: 30px;
+}
+
+.side{
+    flex: 30%;
+    background-color:darksalmon;
+    padding: 5px 20px 5px 20px;
+}
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 5px 20px 20px 20px;
+}
+
+.main ul,ol{
+    font-size: 18px;
+    color:darkred;
+}
+
+.date3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date3 ul{
+    flex: 60%;
+}
+
+.ul{
+    border:4px solid black;
+    background-color: burlywood;
+    padding:15px;
+}
+
+.date3 .imagen2{
+    flex: 30%;
+}
+
+.imagen2{   
+    width: 90%;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: white;
+    background-image: url( https://cdn2.iconfinder.com/data/icons/free-version/128/workplace-64.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+    margin-left: 90px;
+    margin-bottom: 40;    
+}
+
+.imagen{
+    width: 100%;
+    padding: 20px;
+    border: 4px solid black;
+    background-color: white;
+    background-image: url(https://randomuser.me/api/portraits/men/47.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 60px;
+}
+
+.date{
+    background-color:firebrick;
+    width: 100%;
+    padding: 20px;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.date2{
+    background-color: firebrick;
+    width: 100%;
+    padding: 10px;
+    color:white;
+    border:3px solid black;
+}
+
+.educativa{
+    background-color:burlywood;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    font-size: 19px;
+}
+
+@media screen and (max-width:600px){ 
+    .row, .navbar {                     
+        flex-direction: column;      
+    }
+}
+
+b{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+    
